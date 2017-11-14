@@ -1,3 +1,19 @@
 body {
   background-image: url("../img/cork-board.jpg");
 }
+
+.pictures {
+  position: relative;
+}
+
+.piggy {
+  position: relative;
+  width: 650px;
+  height: 650px;
+}
+
+.polaroid {
+  position: absolute;
+  top: -115px;
+  left: -125px;
+}
