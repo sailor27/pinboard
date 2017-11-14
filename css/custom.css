@@ -1,15 +1,29 @@
 body {
   background-image: url("../img/cork-board.jpg");
 }
+.main-container {
+  text-align: center;
+  margin-top: 200px;
+}
 
 .pictures {
+  display:inline-block;
   position: relative;
 }
 
 .piggy {
   position: relative;
+  object-fit: cover;
   width: 650px;
   height: 650px;
+}
+
+.pushpin {
+  position: absolute;
+  right: 300px;
+  bottom: 600px;
+  width: 100px;
+  height: 100px;
 }
 
 .polaroid {
